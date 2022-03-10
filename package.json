@@ -1,5 +1,5 @@
 {
-  "name": "starter",
+  "name": "jsd-starter",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -17,6 +17,9 @@
     "url": "https://github.com/jsd/jsd-starter/issues"
   },
   "homepage": "https://github.com/jsd/jsd-starter#readme", 
+  "bin": {
+    "jsd-starter": "./index.js"
+  },
   "type": "module",
   "dependencies": {
     "chalk": "^5.0.0"
